@@ -1,7 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Website</title>
+    <style>
+        /* Allgemeine Stile */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Stil für das Logo */
+        #logo {
+            width: 100%;
+            display: block;
+        }
+        /* Stil für die Navigation */
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            background-color: rgba(107, 132, 196, 0.8);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s ease; /* Hintergrundfarbe Übergang */
+        }
+        nav a:hover {
+            background-color: rgba(107, 132, 196, 1); /* Dunklere Hintergrundfarbe beim Überfahren */
+        }
+        /* Stil für den Hauptinhalt */
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        /* Stil für die Fußzeile */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World, here we go!</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!-- Kopfzeile mit Logo -->
+    <header>
+        <img id="logo" src="header.png" alt="Logo">
+    </header>
+    
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Unser Ziel</a>
+        <a href="seite1.html">Aktuelles Heft</a>
+	<a href="seite5.html">Kontakt</a>
+        <a href="seite3.html">Anzeigenangebot</a>
+        <a href="seite4.html">Auslagestellen</a>
+        <a href="seite5.html">Unser Team</a>
+    </nav>
+    
+    <!-- Hauptinhalt -->
+    <div class="content">
+        <h1>Willkommen auf meiner Website</h1>
+        <p>Hier kannst du Text und Bilder einfügen.</p>
+        <img src="bild.jpg" alt="Bild">
+    </div>
+    
+    <!-- Fußzeile -->
+    <footer>
+        <a href="Impressum.html">Impressum</a>
+    </footer>
 </body>
 </html>
